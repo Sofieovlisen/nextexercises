@@ -22,7 +22,8 @@
 body {
   background: var(--background);
   color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+  height: 100vh;
+  font-family: poppins, sans-serif;
   background: rgb(200, 220, 229);
   background: linear-gradient(
     310deg,
@@ -37,7 +38,7 @@ header {
   justify-content: space-between;
   align-items: center;
   padding: 2vw;
-  font-family: "Poppins", sans-serif;
+  font-family: Poppins, sans-serif;
 }
 
 nav ul {
@@ -76,4 +77,41 @@ li:hover {
     color: white;
     cursor: default;
   }
+}
+
+button {
+  cursor: pointer;
+  border-radius: 100px;
+  border: solid 2px white;
+  padding: 5px 50px;
+  color: white;
+  font-size: 24px;
+  font-weight: 500;
+  font-family: "Poppins", sans-serif;
+}
+
+a {
+  cursor: pointer;
+}
+
+h1 {
+  font-size: 64px;
+  max-width: 18ch;
+  color: white;
+  padding-top: 70px;
+  padding-bottom: 70px;
+}
+
+.stor {
+  display: grid;
+  grid-template-columns: auto 1fr;
+  padding: 5vw;
+  place-self: center;
+}
+
+span {
+  display: block;
+  border-radius: 100px;
+  width: 18px;
+  background-color: gray;
 }

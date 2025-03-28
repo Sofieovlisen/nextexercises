@@ -5,7 +5,9 @@ import { FiShoppingBag } from "react-icons/fi";
 const Header = () => {
   return (
     <header>
-      <FaApple style={{ fontSize: "50px", color: "white" }} />
+      <a href="/">
+        <FaApple style={{ fontSize: "50px", color: "white" }} />
+      </a>
       <nav>
         <ul>
           <li>
